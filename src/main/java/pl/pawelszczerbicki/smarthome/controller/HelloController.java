@@ -1,4 +1,4 @@
-package pl.pawelszczerbicki.smarthome;
+package pl.pawelszczerbicki.smarthome.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
