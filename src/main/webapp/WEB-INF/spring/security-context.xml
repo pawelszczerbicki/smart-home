@@ -9,31 +9,26 @@ http://www.springframework.org/schema/security
 http://www.springframework.org/schema/security/spring-security-3.1.xsd
 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="pl.pawelszczerbicki.smarthome"/>
-
+    <context:component-scan base-package="pl.pawelszczerbicki.smarthome" />
     <context:annotation-config/>
-    <http pattern="/resources/**" security="none"/>
-    <http pattern="/login*" security="none"/>
-    <http pattern="/user/restorePassword*" security="none"/>
-
-    <global-method-security pre-post-annotations="enabled"/>
 
     <http auto-config='true' access-denied-page="/access-denied">
-        <intercept-url pattern="/admin/**" access="ROLE_ADMIN"/>
-        <intercept-url pattern="/WEB-INF" access="ROLE_USER, ROLE_ADMIN"/>
+        <intercept-url pattern="/dashboard/**" access="ROLE_ADMIN"  />
 
-        <form-login login-page="/login" authentication-failure-url="/login?error=true" default-target-url="/"
-                    always-use-default-target="true"/>
-        <session-management invalid-session-url="/"/>
-        <logout delete-cookies="JSESSIONID"/>
+        <form-login login-page="/login"
+                    authentication-failure-url="/login?error=true"
+                    default-target-url="/"
+                    />
+        <session-management invalid-session-url="/" />
+        <logout delete-cookies="JSESSIONID" />
 
         <session-management>
-            <concurrency-control max-sessions="1" error-if-maximum-exceeded="true"/>
+            <concurrency-control max-sessions="1" error-if-maximum-exceeded="true" />
         </session-management>
-    </http>
 
+    </http>
     <authentication-manager>
-        <authentication-provider user-service-ref="userService">
+        <authentication-provider user-service-ref="securityService">
             <password-encoder ref="passwordEncoder"/>
         </authentication-provider>
     </authentication-manager>
