@@ -1,7 +1,5 @@
 package pl.pawelszczerbicki.smarthome;
 
-import org.atmosphere.cpr.Broadcaster;
-import org.atmosphere.cpr.BroadcasterFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -17,13 +15,6 @@ public class IndexController {
 
     @RequestMapping(value = "/")
 	public String main() {
-        return "index";
-	}
-
-    @RequestMapping(value = "/test")
-	public String test() {
-        Broadcaster broadcaster = BroadcasterFactory.getDefault().lookup("aa");
-        broadcaster.broadcast("aa");
         return "index";
 	}
 
