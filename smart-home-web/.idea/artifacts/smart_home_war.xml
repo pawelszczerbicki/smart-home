@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="smart-home:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="smart-home.war">
+      <element id="artifact" artifact-name="smart-home:war exploded" />
+    </root>
+  </artifact>
+</component>

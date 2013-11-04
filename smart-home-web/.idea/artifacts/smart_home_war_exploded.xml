@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="smart-home:war exploded">
+    <output-path>$PROJECT_DIR$/target/smart-home</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="smart-home/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="smart-home" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
