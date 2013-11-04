@@ -16,5 +16,5 @@ public enum MessageType {
     //ACTION - perform action
     //CHECK - check raspberry
     //INFO - info about state etc
-    WELCOME, CONFIG, ACTION, CHECK_DEVICE, INFO, HEARTBEAT
+    WELCOME, CONFIG, ACTION, CHECK_DEVICE, INFO, HEARTBEAT, NOTIFICATION
 }

@@ -16,4 +16,5 @@
         <put-attribute name="menu" value="/WEB-INF/views/dashboard-default/menu.jsp" />
         <put-attribute name="body" value="/WEB-INF/views/dashboard-default/index.jsp" />
     </definition>
+
 </tiles-definitions>

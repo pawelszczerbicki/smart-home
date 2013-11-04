@@ -2,8 +2,6 @@ package pl.pawelszczerbicki.smarthome.message;
 
 import lombok.Getter;
 import lombok.Setter;
-import pl.pawelszczerbicki.smarthome.device.Device;
-import pl.pawelszczerbicki.smarthome.device.DeviceAction;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -19,9 +17,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Message {
     private MessageType type;
-    private Device device;
-    private DeviceAction action;
-    private Integer value;
+    private String deviceId;
+    private Integer raspiPin;
+    private Action action;
+    private String message;
 
     public Message(MessageType type) {
         this.type = type;

@@ -51,7 +51,6 @@ public class PollWebservice {
     @Path("{accountId}")
     @Produces(MediaType.APPLICATION_JSON)
     public void broadcast(Message m, @PathParam("accountId") String accountId) {
-        //deviceDao.save(new Device());
         logger.info("Send message by : " + accountId);
         Broadcaster broadcaster = BroadcasterFactory.getDefault().lookup(accountId);
         broadcaster.broadcast(m);

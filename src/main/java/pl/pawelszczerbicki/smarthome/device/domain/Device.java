@@ -1,8 +1,8 @@
-package pl.pawelszczerbicki.smarthome.device;
+package pl.pawelszczerbicki.smarthome.device.domain;
 
-import com.pi4j.io.gpio.RaspiPin;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.xml.bind.annotation.XmlRootElement;
@@ -18,11 +18,14 @@ import java.util.Set;
  */
 @Getter
 @Setter
+@ToString
 @Document(collection = "devices")
 @XmlRootElement
 public class Device {
 
     private String id;
+
+    private String accountId;
 
     private String name;
 
@@ -32,19 +35,30 @@ public class Device {
 
     private Integer value;
 
-    private RaspiPin raspiPin;
+    private Integer raspiPin;
 
-    private Boolean active;
+    private Boolean active = true;
 
     public Device() {
         actions = new HashSet<>();
     }
 
-    public void addAction(DeviceAction deviceAction){
-           actions.add(deviceAction);
+    public Device(String name, DeviceAction deviceAction, Integer raspiPin, String accountId) {
+        this();
+        this.name = name;
+        addAction(deviceAction);
+        this.raspiPin = raspiPin;
+        this.accountId = accountId;
+        this.deviceState = DeviceState.OFF;
     }
 
-    public boolean hasAction(DeviceAction deviceAction){
-           return actions.contains(deviceAction);
+    public void addAction(DeviceAction deviceAction) {
+        actions.add(deviceAction);
     }
+
+    public boolean hasAction(DeviceAction deviceAction) {
+        return actions.contains(deviceAction);
+    }
+
+
 }

@@ -1,4 +1,4 @@
-package pl.pawelszczerbicki.smarthome.device;
+package pl.pawelszczerbicki.smarthome.device.domain;
 
 /**
  * Created with IntelliJ IDEA.

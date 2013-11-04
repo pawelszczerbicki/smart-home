@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import pl.pawelszczerbicki.smarthome.account.Account;
 import pl.pawelszczerbicki.smarthome.account.AccountDto;
 import pl.pawelszczerbicki.smarthome.account.AccountService;
 import pl.pawelszczerbicki.smarthome.utils.ControllerUtils;
@@ -58,8 +57,7 @@ public class LoginController {
             addStandardRegisterAttributes(user, model, new AccountDto());
             return "register";
         }
-        Account a = accountService.getByDomain(user.getDomain());
-        userService.save(user, a);
+        userService.save(user, accountService.getByDomain(user.getDomain()));
         addStandardRegisterAttributes(new UserDto(), model, new AccountDto());
         model.addAttribute("success", MessageResolver.USER_ADDED_SUCCESSFULLY);
         return "register";
@@ -76,7 +74,7 @@ public class LoginController {
         User user = userService.get(username);
         if (StringUtils.isBlank(username) || user == null)
             model.addAttribute("errors", MessageResolver.USER_NOT_EXISTS);
-        else{
+        else {
             userService.changePassword(user);
             model.addAttribute("success", MessageResolver.USER_PASSWORD_CHANGED);
         }

@@ -1,4 +1,4 @@
-package pl.pawelszczerbicki.smarthome.device;
+package pl.pawelszczerbicki.smarthome.device.domain;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -11,6 +11,6 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement
 public enum DeviceAction {
-    SWITCH, PULSE, ADJUST, READ
+    SWITCH, FLICKER, ADJUST, READ
 
 }

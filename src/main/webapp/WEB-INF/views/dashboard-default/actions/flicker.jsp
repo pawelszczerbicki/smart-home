@@ -1,0 +1,1 @@
+<button class="device-flicker-button" id="flicker-${device.id}" device-id="${device.id}" pin = "${device.raspiPin}">Flicker</button>
