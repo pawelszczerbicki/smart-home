@@ -2,7 +2,7 @@ package pl.pawelszczerbicki.smarthome.account;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
+import lombok.ToString;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,6 +13,7 @@ import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
  */
 @Getter
 @Setter
+@ToString
 public class AccountDto {
 
     private String domain;
@@ -21,8 +22,4 @@ public class AccountDto {
 
     private String password;
 
-    @Override
-    public String toString() {
-        return ReflectionToStringBuilder.toString(this);
-    }
 }

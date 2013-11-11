@@ -40,8 +40,7 @@ public class AccountDtoValidator implements Validator {
         ValidationUtils.rejectIfEmptyOrWhitespace(errors, "email", MessageResolver.ACCOUNT_EMPTY_EMAIL, MessageResolver.ACCOUNT_EMPTY_EMAIL);
         ValidationUtils.rejectIfEmptyOrWhitespace(errors, "password", MessageResolver.ACCOUNT_EMPTY_PASSWORD, MessageResolver.ACCOUNT_EMPTY_PASSWORD);
         AccountDto a = (AccountDto) target;
-
-        if (stringTools.validEmail(a.getEmail()))
+        if (!stringTools.validEmail(a.getEmail()))
             errors.rejectValue("email", MessageResolver.ACCOUNT_MALFORMED_EMAIL, MessageResolver.ACCOUNT_MALFORMED_EMAIL);
 
         if (!StringUtils.isBlank(a.getDomain()) && accountService.accountExists(a.getDomain()))
