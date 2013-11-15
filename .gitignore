@@ -1,6 +1,6 @@
 *.class
 *.iml
-*/.idea
+*/.idea/**
 */target/**
 # Package Files #
 *.jar

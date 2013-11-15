@@ -1,7 +1,7 @@
 *.class
 *.iml
 */.idea
-*/smart-home-web/target/*
+*/target/**
 # Package Files #
 *.jar
 *.war
