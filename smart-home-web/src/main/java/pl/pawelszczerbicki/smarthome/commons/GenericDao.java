@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Pawel
@@ -25,8 +27,12 @@ public abstract class GenericDao<T> {
         this.clazz = clazz;
     }
 
-    public T get(Long id){
+    public T get(String id){
         return mongoTemplate.findById(id, clazz);
+    }
+
+    public List<T> findAll(){
+        return mongoTemplate.findAll(clazz);
     }
 
     public void save(T entity){

@@ -32,6 +32,7 @@ import static org.apache.log4j.Logger.getLogger;
 public class PollWebservice {
 
     private final Logger logger = getLogger(getClass());
+
     @Autowired
     private DeviceDao deviceDao;
 
@@ -50,6 +51,8 @@ public class PollWebservice {
     @POST
     @Path("{accountId}")
     @Produces(MediaType.APPLICATION_JSON)
+    //TODO check if raspberry exists
+    //TODO synchronize all devices
     public void broadcast(Message m, @PathParam("accountId") String accountId) {
         logger.info("Send message by : " + accountId);
         Broadcaster broadcaster = BroadcasterFactory.getDefault().lookup(accountId);

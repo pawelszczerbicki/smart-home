@@ -5,6 +5,7 @@ import lombok.Setter;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
@@ -21,6 +22,8 @@ public class Account implements Serializable{
     private String id;
 
     private String domain;
+
+    private Date deviceUpdatedAt;
 
     public Account(String domain) {
         this.domain = domain;

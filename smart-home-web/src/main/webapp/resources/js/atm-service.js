@@ -8,7 +8,7 @@ $(function () {
     var statusLed = $('#connection-status-led');
     var logged = false;
     var socket = $.atmosphere;
-    var request = { url: remote_url,
+    var request = { url: localhost_url,
         contentType: "application/json",
         logLevel: 'debug',
         transport: 'websocket',
@@ -101,8 +101,10 @@ $(function () {
 
     function serviceFlickerAction(message, deviceId){
         var time = message ? message : 500;
-        flicker($('#diode-' + deviceId), "led-green-off", "led-green", time);
-        flicker($('#diode-' + deviceId), "led-small", "led-xmedium", time);
+        $("#action-status-text").fadeIn("slow").html("Performed");
+        setTimeout(function(){
+            $("#action-status-text").fadeIn("slow").html("");
+        }, time) ;
     }
 
     function serviceAdjustAction(message, deviceId) {

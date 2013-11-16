@@ -3,7 +3,6 @@ package pl.pawelszczerbicki.smarthome.account;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pl.pawelszczerbicki.smarthome.auth.UserDao;
 import pl.pawelszczerbicki.smarthome.auth.User;
 import pl.pawelszczerbicki.smarthome.auth.UserService;
 
@@ -22,6 +21,18 @@ public class AccountService {
 
     @Autowired
     private UserService userService;
+
+    public void save(Account a){
+        accountDao.save(a);
+    }
+
+    public void findAll(){
+        accountDao.save(a);
+    }
+
+    public Account get(String id){
+        return  accountDao.get(id);
+    }
 
     public Account getByDomain(String d){
         return  accountDao.getByDomain(d);

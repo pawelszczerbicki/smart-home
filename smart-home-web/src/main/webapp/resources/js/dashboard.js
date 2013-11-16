@@ -1,7 +1,7 @@
 $(document).ready(function () {
     registerModals();
-    $("#share-message-submit").click(function () {
-        var message = $("#share-message-content").val();
+    $("#message-submit").click(function () {
+        var message = $("#message-content").val();
         if (message) {
             sendNotification(message);
         }
@@ -27,7 +27,7 @@ $(document).ready(function () {
         sendActionMessage(deviceId, raspiPin, "FLICKER", 1000)
     });
 
-    $('.noUiSlider').noUiSlider({
+    $('.slider').noUiSlider({
         range: [10,40]
         ,start: 10
         ,step: 1

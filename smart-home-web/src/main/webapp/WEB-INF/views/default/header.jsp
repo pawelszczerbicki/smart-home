@@ -16,7 +16,7 @@
 <script src="<c:url value='/resources/js/jquery-1.10.2.js'/>" type="text/javascript"></script>
 <script src="<c:url value='/resources/js/jquery-ui.js'/>" type="text/javascript"></script>
 <script src="<c:url value='/resources/js/bootstrap.js'/>" type="text/javascript"></script>
-<script src="<c:url value='/resources/js/canvas/theme.js'/>" type="text/javascript"></script>
-<script src="<c:url value='/resources/js/canvas/index-slider.js'/>" type="text/javascript"></script>
+<script src="<c:url value='/resources/js/theme.js'/>" type="text/javascript"></script>
+<script src="<c:url value='/resources/js/index-slider.js'/>" type="text/javascript"></script>
 <script src="<c:url value='/resources/js/jqBootstrapValidation.js'/>" type="text/javascript"></script>
 <script src="<c:url value='/resources/js/jquery.pnotify.min.js'/>" type="text/javascript" ></script>

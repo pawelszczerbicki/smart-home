@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c41cf4f6-6c04-49ce-9dbf-e4070060e517" name="Default" comment="" />
+    <ignored path="smart-home.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/.gitignore" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1375739204383" ignored="false" />
+    <file path="/mvc-dispatcher-servlet.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1375903588869" ignored="false" />
+    <file path="/HelloController.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009611725" ignored="false" />
+    <file path="/Sample.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1375738792314" ignored="false" />
+    <file path="/mongo-context.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384008842077" ignored="false" />
+    <file path="/security-context.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381004623791" ignored="false" />
+    <file path="/pom.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384006813176" ignored="false" />
+    <file path="/UserService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381601997662" ignored="false" />
+    <file path="/web.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384007591298" ignored="false" />
+    <file path="/login.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379351184083" ignored="false" />
+    <file path="/log4j.properties" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381659400649" ignored="false" />
+    <file path="$PROJECT_DIR$/../fridge/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1378238552313" ignored="false" />
+    <file path="/log4.properties" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1378239920192" ignored="false" />
+    <file path="$PROJECT_DIR$/../fridge/pom.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1378241382167" ignored="false" />
+    <file path="/log4.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1378241023375" ignored="false" />
+    <file path="/a.dummy" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384011701884" ignored="false" />
+    <file path="/log4j.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384007140285" ignored="false" />
+    <file path="/PollWebservice.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384383434714" ignored="false" />
+    <file path="/Message.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383392707098" ignored="false" />
+    <file path="/Response.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381431424814" ignored="false" />
+    <file path="/hello.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1378835418296" ignored="false" />
+    <file path="$PROJECT_DIR$/../fridge/src/main/webapp/WEB-INF/web.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1378843473009" ignored="false" />
+    <file path="/servlet-context.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384008771467" ignored="false" />
+    <file path="/views.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009254811" ignored="false" />
+    <file path="/default.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1378844706435" ignored="false" />
+    <file path="/index.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384596588178" ignored="false" />
+    <file path="/HelloWorldService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379246230837" ignored="false" />
+    <file path="/app.js" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379248903793" ignored="false" />
+    <file path="/ResponseMy.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379192428652" ignored="false" />
+    <file path="$USER_HOME$/Desktop/atmosphere-samples-master/atmosphere-samples-master/samples/rest-chat/src/main/webapp/WEB-INF/jboss-web.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379251591616" ignored="false" />
+    <file path="$USER_HOME$/Desktop/atmosphere-samples-master/atmosphere-samples-master/samples/rest-chat/src/main/webapp/WEB-INF/context.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379251591616" ignored="false" />
+    <file path="$USER_HOME$/Desktop/atmosphere-samples-master/atmosphere-samples-master/samples/rest-chat/pom.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379251591616" ignored="false" />
+    <file path="$USER_HOME$/Desktop/atmosphere-samples-master/atmosphere-samples-master/samples/rest-chat/src/main/webapp/WEB-INF/web.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379251591616" ignored="false" />
+    <file path="$USER_HOME$/Desktop/atmosphere-samples-master/atmosphere-samples-master/samples/rest-chat/src/main/webapp/WEB-INF/sun-web.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379251591616" ignored="false" />
+    <file path="$USER_HOME$/Desktop/atmosphere-samples-master/atmosphere-samples-master/samples/rest-chat/src/main/webapp/META-INF/context.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379251591616" ignored="false" />
+    <file path="/layouts.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384191724426" ignored="false" />
+    <file path="/sample.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379451511390" ignored="false" />
+    <file path="/main.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380397108890" ignored="false" />
+    <file path="/default-header.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1379534359987" ignored="false" />
+    <file path="/slider.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381168304388" ignored="false" />
+    <file path="/index.css" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381166954834" ignored="false" />
+    <file path="/footer.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009460229" ignored="false" />
+    <file path="/LoginController.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382992166950" ignored="false" />
+    <file path="/login-header.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380055621523" ignored="false" />
+    <file path="/sign-in.css" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381168950122" ignored="false" />
+    <file path="/login-form.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381169601745" ignored="false" />
+    <file path="/login-index.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380059615170" ignored="false" />
+    <file path="/menu.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384380148129" ignored="false" />
+    <file path="/contact.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381264811426" ignored="false" />
+    <file path="/ContactController.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381263590230" ignored="false" />
+    <file path="/MainController.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380222509850" ignored="false" />
+    <file path="/header.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384378066048" ignored="false" />
+    <file path="/menu-items.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381168561323" ignored="false" />
+    <file path="/DashboardController.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380300053597" ignored="false" />
+    <file path="/access-denied.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380482023841" ignored="false" />
+    <file path="/User.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381600377138" ignored="false" />
+    <file path="/Role.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381259020329" ignored="false" />
+    <file path="/RoleName.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380367033109" ignored="false" />
+    <file path="/UserDao.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380572911736" ignored="false" />
+    <file path="/GenericDao.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384470288188" ignored="false" />
+    <file path="/SecurityService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381268274096" ignored="false" />
+    <file path="/sign-up.css" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381168961474" ignored="false" />
+    <file path="/register-form.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381169908633" ignored="false" />
+    <file path="/UserDto.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381259059348" ignored="false" />
+    <file path="$PROJECT_DIR$/../smart/pom.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380468519072" ignored="false" />
+    <file path="/Account.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384470011009" ignored="false" />
+    <file path="/register-account.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381169934781" ignored="false" />
+    <file path="/AccountDto.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384179218542" ignored="false" />
+    <file path="/application_eng_ENG.properties" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382648247141" ignored="false" />
+    <file path="/ControllerUtils.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380485073976" ignored="false" />
+    <file path="/MessageResolver.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381916053455" ignored="false" />
+    <file path="/AccountDao.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380491588274" ignored="false" />
+    <file path="/AccountService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384470306534" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1380966937268" ignored="false" />
+    <file path="/UserDtoValidator.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381048568365" ignored="false" />
+    <file path="/AccountController.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384179196386" ignored="false" />
+    <file path="/AccountDtoValidator.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384179383889" ignored="false" />
+    <file path="/fragment.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383393391265" ignored="false" />
+    <file path="/IndexController.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383341560136" ignored="false" />
+    <file path="/StringUtils.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381048552454" ignored="false" />
+    <file path="/Email.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381259096804" ignored="false" />
+    <file path="/EmailService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381264406660" ignored="false" />
+    <file path="/StringTools.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381096981849" ignored="false" />
+    <file path="/dashboard.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383410909429" ignored="false" />
+    <file path="/atm-service.js" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384469564925" ignored="false" />
+    <file path="/Cluster.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381258498856" ignored="false" />
+    <file path="/Device.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383409982557" ignored="false" />
+    <file path="/ClusterDao.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381256837843" ignored="false" />
+    <file path="/Contact.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381264105461" ignored="false" />
+    <file path="/ContactService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381264272189" ignored="false" />
+    <file path="/system.properties" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382648260581" ignored="false" />
+    <file path="/ContactDao.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381263065029" ignored="false" />
+    <file path="/DeviceDao.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383341410263" ignored="false" />
+    <file path="/DeviceActions.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381267418445" ignored="false" />
+    <file path="/DeviceType.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381267738330" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/Main.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381435968954" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/pom.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381603438993" ignored="false" />
+    <file path="/Main.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384464853776" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/Message.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381349602249" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/Response.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381431426792" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/Main.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381436059175" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/Message.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381436059175" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/Response.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381436059175" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/main/Main.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381699440502" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/model/Message.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381603761612" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/model/Response.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381436089401" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/service/AtmosphereService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381855899031" ignored="false" />
+    <file path="/AtmosphereService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383581248977" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/service/GpioRaspberryService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381519344792" ignored="false" />
+    <file path="/GpioRaspberryService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383393266756" ignored="false" />
+    <file path="/MessageType.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383324660467" ignored="false" />
+    <file path="/DeviceAction.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383407501977" ignored="false" />
+    <file path="/DeviceState.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381585229588" ignored="false" />
+    <file path="/MultivalueDevice.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381585320607" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/model/MessageType.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381693389811" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/model/DeviceAction.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381602616325" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/model/Device.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381603442206" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/model/DeviceState.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381603409625" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/smart-home.config" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381660990888" ignored="false" />
+    <file path="/smart-home.config" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381603946773" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/service/PropertyService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381660901558" ignored="false" />
+    <file path="/PropertyService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381660402103" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/java/pl/pawelszczerbicki/raspberry/model/PropertiesResolver.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381604237810" ignored="false" />
+    <file path="/PropertiesResolver.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381604187367" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/.idea/workspace.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381655716229" ignored="false" />
+    <file path="$PROJECT_DIR$/../websocketExample/src/main/resources/log4j.properties" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1381659402244" ignored="false" />
+    <file path="/BroadcasterService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384470234991" ignored="false" />
+    <file path="/Grade.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382989692320" ignored="false" />
+    <file path="/GradeDao.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382992780487" ignored="false" />
+    <file path="D:/Uczelnia/Inf ang/2/it app/armchair_it_app_project/.gitignore" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382642486874" ignored="false" />
+    <file path="/Dummy.txt" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382642506739" ignored="false" />
+    <file path="D:/Uczelnia/Inf_ang/2/it_app/pwr_armchair/web/src/main/java/pl/wroc/pwr/message/Message.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382790043798" ignored="false" />
+    <file path="D:/Uczelnia/Inf_ang/2/it_app/pwr_armchair/web/src/main/java/pl/wroc/pwr/IndexController.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382647621663" ignored="false" />
+    <file path="D:/Uczelnia/Inf_ang/2/it_app/pwr_armchair/web/src/main/java/pl/wroc/pwr/webservice/MockWebservice.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382650094217" ignored="false" />
+    <file path="D:/Uczelnia/Inf_ang/2/it_app/pwr_armchair/web/pom.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382649924976" ignored="false" />
+    <file path="D:/Uczelnia/Inf_ang/2/it_app/pwr_armchair/web/src/main/resources/log4j.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382647752124" ignored="false" />
+    <file path="D:/Uczelnia/Inf_ang/2/it_app/pwr_armchair/web/src/main/webapp/WEB-INF/classes/application_eng_ENG.properties" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382648247141" ignored="false" />
+    <file path="D:/Uczelnia/Inf_ang/2/it_app/pwr_armchair/web/src/main/webapp/WEB-INF/classes/system.properties" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382648261329" ignored="false" />
+    <file path="/MockWebservice.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382648937328" ignored="false" />
+    <file path="D:/Uczelnia/Inf_ang/2/it_app/pwr_armchair/web/src/main/webapp/WEB-INF/web.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382650138768" ignored="false" />
+    <file path="/Ocena.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382989674366" ignored="false" />
+    <file path="/Student.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1382993363376" ignored="false" />
+    <file path="/led.css" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384183400002" ignored="false" />
+    <file path="/dashboard.js" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383418488422" ignored="false" />
+    <file path="/overrides.css" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383343703930" ignored="false" />
+    <file path="/add-device-modal.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384190973355" ignored="false" />
+    <file path="/DeviceController.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383340134637" ignored="false" />
+    <file path="/SampleTest.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383331182896" ignored="false" />
+    <file path="/DeviceDto.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383338969555" ignored="false" />
+    <file path="/DeviceService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383341416308" ignored="false" />
+    <file path="/Action.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383420466158" ignored="false" />
+    <file path="$PROJECT_DIR$/../smart-home-raspberry/src/main/java/pl/pawelszczerbicki/raspberry/service/AtmosphereService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383581250189" ignored="false" />
+    <file path="$PROJECT_DIR$/../smart-home-raspberry/src/main/java/pl/pawelszczerbicki/raspberry/service/MessageService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383581455581" ignored="false" />
+    <file path="/MessageService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384470191345" ignored="false" />
+    <file path="$PROJECT_DIR$/../smart-home-raspberry/src/main/java/pl/pawelszczerbicki/raspberry/model/Message.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383392698838" ignored="false" />
+    <file path="$PROJECT_DIR$/../smart-home-raspberry/src/main/java/pl/pawelszczerbicki/raspberry/model/MessageType.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383392064801" ignored="false" />
+    <file path="$PROJECT_DIR$/../smart-home-raspberry/src/main/java/pl/pawelszczerbicki/raspberry/model/Action.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383420448142" ignored="false" />
+    <file path="$PROJECT_DIR$/../smart-home-raspberry/src/main/java/pl/pawelszczerbicki/raspberry/service/GpioRaspberryService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383392222276" ignored="false" />
+    <file path="$PROJECT_DIR$/../smart-home-raspberry/src/main/java/pl/pawelszczerbicki/raspberry/service/RaspberryService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383406733894" ignored="false" />
+    <file path="/RaspberryService.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383406733894" ignored="false" />
+    <file path="$PROJECT_DIR$/../smart-home-raspberry/src/main/java/pl/pawelszczerbicki/raspberry/model/DeviceAction.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383407449246" ignored="false" />
+    <file path="$PROJECT_DIR$/../smart-home-raspberry/src/main/java/pl/pawelszczerbicki/raspberry/main/ValuesSender.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383420455532" ignored="false" />
+    <file path="/ValuesSender.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383420453341" ignored="false" />
+    <file path="$PROJECT_DIR$/../smart-home-raspberry/src/main/java/pl/pawelszczerbicki/raspberry/main/Main.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383420328608" ignored="false" />
+    <file path="$PROJECT_DIR$/../FotoLinkGenerator/src/Main.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383474570647" ignored="false" />
+    <file path="$PROJECT_DIR$/../artificial-inteligence-project2/.idea/workspace.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1383505869064" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/.gitignore" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384006448995" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/java/pl/wroc/pwr/willBeRemoved/MainWindow.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384006597603" ignored="false" />
+    <file path="/MainWindow.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384006583999" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/pom.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384008710882" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/make-hdr.iml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384008713653" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/java/pl/wroc/pwr/HelloController.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384011665582" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/resources/log4j.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384007140862" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/WEB-INF/web.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009794908" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/WEB-INF/spring/root-context.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384008669329" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/WEB-INF/spring/servlet/servlet-context.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009561960" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/WEB-INF/spring/mongo-context.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384008841666" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/WEB-INF/layouts/layouts.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009862046" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/WEB-INF/layouts/main.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009436559" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/WEB-INF/views/header.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009375746" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/WEB-INF/views/footer.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009464013" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/WEB-INF/views/index.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009477144" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/WEB-INF/views/jakisinnywidok/innyindex.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009449138" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/WEB-INF/views/views.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009254811" ignored="false" />
+    <file path="/flower.css" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009382575" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/resources/css/flower.css" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009384249" ignored="false" />
+    <file path="$PROJECT_DIR$/../../make-hdr/src/main/webapp/resources/js/flower.js" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009390283" ignored="false" />
+    <file path="/flower.js" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009389122" ignored="false" />
+    <file path="/innyindex.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384009407697" ignored="false" />
+    <file path="/StringUtilsTest.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384179999035" ignored="false" />
+    <file path="$PROJECT_DIR$/../../fridge/src/main/webapp/WEB-INF/web.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384184270765" ignored="false" />
+    <file path="$PROJECT_DIR$/../../fridge/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384184270765" ignored="false" />
+    <file path="/about-modal.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384190989621" ignored="false" />
+    <file path="/dark.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384191700044" ignored="false" />
+    <file path="/flicker.jsp" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384284115105" ignored="false" />
+    <file path="$PROJECT_DIR$/../../artificial-inteligence-project2/src/checkers/EvaluatePosition.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384465843293" ignored="false" />
+    <file path="/EvaluatePosition.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384465102234" ignored="false" />
+    <file path="$PROJECT_DIR$/../../artificial-inteligence-project2/src/Main.java" changelist="c41cf4f6-6c04-49ce-9dbf-e4070060e517" time="1384464853776" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="smart-home" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="empty-slider.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/default/empty-slider.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-modal.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/about-modal.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="8" selection-start="163" selection-end="163" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add-device-modal.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/add-device-modal.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/footer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="68" selection-start="651" selection-end="651" vertical-scroll-proportion="0.22315036">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layouts.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="70" selection-start="1476" selection-end="1482" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="44" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dark.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/dark.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="25" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/dashboard.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/default/header.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-dark.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/actions/flicker.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-overrides.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/dashboard/dashboard.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/dashboard/atm-service.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/default/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pawelszczerbicki/smarthome/webservice/PollWebservice.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/atm-service.js" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pawelszczerbicki/smarthome/account/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pawelszczerbicki/smarthome/message/MessageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pawelszczerbicki/smarthome/webservice/BroadcasterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pawelszczerbicki/smarthome/commons/GenericDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pawelszczerbicki/smarthome/account/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/index.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Devtools\apache-maven-3.1.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="showIgnored" value="false" />
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smart-home-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settings.project.maven.runner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="689974c8-93a1-4754-a9a6-15993823bfcc">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pawel\Documents\Intellij\smart-home\smart-home-web\src\main\webapp\WEB-INF\views\dark" />
+      <recent name="C:\Users\Pawel\Documents\Intellij\smart-home\src\main\webapp\resources\dashboard" />
+      <recent name="C:\Users\Pawel\Documents\Intellij\smart-home\src\main\resources" />
+      <recent name="C:\Users\Pawel\Documents\Intellij\smart-home\src\main\webapp\resources\css" />
+      <recent name="C:\Users\Pawel\Documents\Intellij\smart-home\src\main\webapp\resources\js" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pl.pawelszczerbicki.smarthome" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pawel\Documents\Intellij\smart-home\smart-home-web\src\main\webapp\resources\js" />
+      <recent name="C:\Users\Pawel\Documents\Intellij\smart-home\src\main\webapp\resources\js" />
+      <recent name="C:\Users\Pawel\Documents\Intellij\smart-home\src\main\webapp\resources\dashboard\js" />
+      <recent name="C:\Users\Pawel\Documents\Intellij\smart-home\src\main\webapp\resources\css" />
+      <recent name="C:\Users\Pawel\Documents\Intellij\smart-home\src\main\webapp\WEB-INF\views\dashboard-default\actions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0">
+    <configuration default="false" name="StringUtilsTest.checkIfEmailIsValidatedCorrectly" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pl.pawelszczerbicki.smarthome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="smart-home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="pl.pawelszczerbicki.smarthome" />
+      <option name="MAIN_CLASS_NAME" value="pl.pawelszczerbicki.smarthome.StringUtilsTest" />
+      <option name="METHOD_NAME" value="checkIfEmailIsValidatedCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GlassfishConfiguration" factoryName="Local">
+      <deployment />
+      <server-settings>
+        <option name="DOMAIN" value="" />
+        <option name="PRESERVE" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="GlassFish" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Glassfish" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Glassfish 4.0.0">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="smart-home:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="GlassFish" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="smart-home:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="smart-home:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_smart-home" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53455" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="smart-home:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Glassfish Server.Glassfish" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AppTests" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StringUtilsTest.checkIfEmailIsValidatedCorrectly" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StringUtilsTest.checkIfEmailIsValidatedCorrectly" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c41cf4f6-6c04-49ce-9dbf-e4070060e517" name="Default" comment="" />
+      <created>1375735644863</created>
+      <updated>1375735644863</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13553895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6006601" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49064907" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5170517" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22998933" sideWeight="0.6028603" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18409818" sideWeight="0.6006601" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1905016" sideWeight="0.6028603" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39713973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.255603" sideWeight="0.18151815" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/default/slider.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/default/static-menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/default/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="29" selection-start="75" selection-end="110" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/default/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/default/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/default/empty-slider.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/add-device-modal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/dark.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="61" selection-start="743" selection-end="743" vertical-scroll-proportion="0.3148148">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="70" selection-start="1476" selection-end="1482" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="44" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/about-modal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="163" selection-end="163" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dark/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="68" selection-start="651" selection-end="651" vertical-scroll-proportion="0.22315036">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>smart-home:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>smart-home</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
