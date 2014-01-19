@@ -27,7 +27,7 @@ public class IndexController {
 
     @RequestMapping(value = "/dashboard")
     public String dashboard(Model model) {
-        model.addAttribute("devices", deviceService.find());
+        model.addAttribute("devices", deviceService.find(true));
         model.addAttribute("actions", DeviceAction.values());
         model.addAttribute("pinAmount", 12);
         return "dashboard";

@@ -6,6 +6,7 @@ import lombok.ToString;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -39,8 +40,11 @@ public class Device {
 
     private Boolean active = true;
 
+    private Date createdAt;
+
     public Device() {
         actions = new HashSet<>();
+        this.createdAt = new Date();
     }
 
     public Device(String name, DeviceAction deviceAction, Integer raspiPin, String accountId) {

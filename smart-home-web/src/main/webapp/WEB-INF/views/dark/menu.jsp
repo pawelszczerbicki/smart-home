@@ -29,26 +29,14 @@
                     </form>
                 </li>
                 <li>
-                    <%--<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" >--%>
-                        <%--<sec:authentication property="principal.email" /> <span class="caret"></span>--%>
-                    <%--</button>--%>
-<%--\--%>
-                    <%--<ul class="dropdown-menu">--%>
-                        <%--<li><a href="#" data-toggle="modal" data-target="#addDeviceModal">Add device</a></li>--%>
-                        <%--<li><a href="<c:url value='/dashboard'/>">Deactivated</a></li>--%>
-                        <%--<li><a href="#" data-toggle="modal" data-target="#aboutModal">About</a></li>--%>
-                        <%--<li class="divider"></li>--%>
-                        <%--<li><a href="<c:url value='/j_spring_security_logout'/>">Log out</a></li>--%>
-                    <%--</ul>--%>
-                <%--</li>--%>
-            <%--</ul>--%>
                         <div class=" navbar-form">
                             <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" >
                                 <sec:authentication property="principal.email" /> <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu">
                                 <li><a href="#" data-toggle="modal" data-target="#addDeviceModal">Add device</a></li>
-                                <li><a href="<c:url value='/dashboard'/>">Deactivated</a></li>
+                                <li><a href="#" id="menu-deactivated">Deactivated</a></li>
+                                <li><a href="#" id="menu-active">Active</a></li>
                                 <li><a href="<c:url value='/dashboard'/>">Settings</a></li>
                                 <li><a href="#" data-toggle="modal" data-target="#aboutModal">About</a></li>
                                 <li class="divider"></li>

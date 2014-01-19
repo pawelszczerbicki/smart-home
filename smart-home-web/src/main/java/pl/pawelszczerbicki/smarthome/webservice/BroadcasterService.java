@@ -37,7 +37,7 @@ public class BroadcasterService {
 
     @Scheduled(cron = "0/10 * * * * *")
     public void checkRaspberry(){
-        accountService.
+//        accountService.
 
     }
 

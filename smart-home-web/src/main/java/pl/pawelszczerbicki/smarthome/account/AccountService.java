@@ -26,10 +26,6 @@ public class AccountService {
         accountDao.save(a);
     }
 
-    public void findAll(){
-        accountDao.save(a);
-    }
-
     public Account get(String id){
         return  accountDao.get(id);
     }

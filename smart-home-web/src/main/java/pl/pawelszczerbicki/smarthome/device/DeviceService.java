@@ -28,7 +28,27 @@ public class DeviceService {
         deviceDao.save(new Device(d.getName(), d.getAction(), d.getPin(), securityService.getUser().getAccount().getId()));
     }
 
-    public List<Device> find(){
-       return deviceDao.get(securityService.getUser().getAccount().getId());
+    public void remove(String id){
+        deviceDao.remove(id);
+    }
+
+    public List<Device> find(boolean active){
+       return deviceDao.find(securityService.getUser().getAccount().getId(), active);
+    }
+
+    public void deactivate(String deviceId){
+        deviceDao.setActive(deviceId, false);
+    }
+
+    public void activate(String deviceId){
+        deviceDao.setActive(deviceId, true);
+    }
+
+    public void addAction(String deviceId, String action){
+        deviceDao.addAction(deviceId, action);
+    }
+
+    public void removeAction(String deviceId, String action){
+        deviceDao.removeAction(deviceId, action);
     }
 }

@@ -7,8 +7,6 @@ import org.atmosphere.cpr.AtmosphereResource;
 import org.atmosphere.cpr.Broadcaster;
 import org.atmosphere.cpr.BroadcasterFactory;
 import org.atmosphere.jersey.JerseyBroadcaster;
-import org.springframework.beans.factory.annotation.Autowired;
-import pl.pawelszczerbicki.smarthome.device.DeviceDao;
 import pl.pawelszczerbicki.smarthome.message.Message;
 
 import javax.ws.rs.*;
@@ -32,9 +30,6 @@ import static org.apache.log4j.Logger.getLogger;
 public class PollWebservice {
 
     private final Logger logger = getLogger(getClass());
-
-    @Autowired
-    private DeviceDao deviceDao;
 
     @Suspend
     @GET

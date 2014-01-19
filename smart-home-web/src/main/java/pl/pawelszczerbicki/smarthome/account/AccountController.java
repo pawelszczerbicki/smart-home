@@ -34,6 +34,7 @@ public class AccountController {
     @Autowired
     private AccountDtoValidator accountDtoValidator;
 
+
     @RequestMapping(value = "/account", method = RequestMethod.POST)
     public String addAccount(@Valid AccountDto account, BindingResult result, Model model) {
         if (result.hasErrors()) {
@@ -46,6 +47,7 @@ public class AccountController {
         addStandardRegisterAttributes(new UserDto(), model, new AccountDto());
         return "register";
     }
+
 
     @InitBinder("accountDto")
     protected void initBinder(WebDataBinder binder) {

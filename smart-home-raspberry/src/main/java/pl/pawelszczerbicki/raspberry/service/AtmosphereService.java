@@ -17,7 +17,7 @@ import java.io.IOException;
 public class AtmosphereService {
 
     static Logger logger = Logger.getLogger(AtmosphereService.class);
-    private static String LOCAL_ADDRESS = "http://localhost:8080/chat/5249cbba2fd4972c7c078edf";
+    private static String LOCAL_ADDRESS = "http://localhost:8080/rest/message/device";
 
     private static String REMOTE_ADDRESS = "http://pawelszczerbicki.pl:8080/smart-home/chat/5249cbba2fd4972c7c078edf";
 
@@ -66,7 +66,7 @@ public class AtmosphereService {
     private RequestBuilder getTransport(final Gson gson, Client client) {
         return client.newRequestBuilder()
                 .method(Request.METHOD.GET)
-                .uri(REMOTE_ADDRESS)
+                .uri(LOCAL_ADDRESS)
                 .header("Content-Type", "application/json")
                 .encoder(new Encoder<Message, String>() {
                     @Override

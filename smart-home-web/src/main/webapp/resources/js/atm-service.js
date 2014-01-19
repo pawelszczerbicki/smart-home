@@ -43,12 +43,11 @@ $(function () {
 
     request.onClose = function (response) {
         logged = false;
+        statusLed.removeClass('led-green').addClass('led-red');
     }
 
     request.onError = function (response) {
         statusLed.removeClass('led-green').addClass('led-red');
-        content.html($('<p>', { text: 'Sorry, but there\'s some problem with your '
-            + 'socket or the server is down' }));
     };
 
     subSocket = socket.subscribe(request);

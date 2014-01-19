@@ -10,7 +10,9 @@
 <sec:authentication var="user" property="principal"/>
 <body account-id="${user.account.id}">
 <tiles:insertAttribute name="menu"/>
-<tiles:insertAttribute name="body"/>
+<div id="body">
+    <tiles:insertAttribute name="body"/>
+</div>
 <tiles:insertAttribute name="footer"/>
 
 </body>
